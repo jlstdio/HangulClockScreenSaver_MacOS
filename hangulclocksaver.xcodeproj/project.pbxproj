@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D35DF3C320F96255001A91D0 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35DF3C220F96255001A91D0 /* ConfigureSheet.xib */; };
 		D3E8816520EF5CFF00AB78CB /* hangulclocksaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E8816420EF5CFF00AB78CB /* hangulclocksaverView.h */; };
 		D3E8816720EF5CFF00AB78CB /* hangulclocksaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8816620EF5CFF00AB78CB /* hangulclocksaverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D35DF3C220F96255001A91D0 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		D38295792114DC270055BB8E /* SaverConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaverConfig.h; sourceTree = "<group>"; };
 		D3E8816120EF5CFF00AB78CB /* hangulclocksaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hangulclocksaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E8816420EF5CFF00AB78CB /* hangulclocksaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hangulclocksaverView.h; sourceTree = "<group>"; };
 		D3E8816620EF5CFF00AB78CB /* hangulclocksaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hangulclocksaverView.m; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 				D3E8816420EF5CFF00AB78CB /* hangulclocksaverView.h */,
 				D3E8816620EF5CFF00AB78CB /* hangulclocksaverView.m */,
 				D3E8816820EF5CFF00AB78CB /* Info.plist */,
+				D35DF3C220F96255001A91D0 /* ConfigureSheet.xib */,
+				D38295792114DC270055BB8E /* SaverConfig.h */,
 			);
 			path = hangulclocksaver;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35DF3C320F96255001A91D0 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VX6755UG9L;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = hangulclocksaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = jonleestudio.hangulclocksaver;
